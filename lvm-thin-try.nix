@@ -8,8 +8,8 @@
           type = "gpt";
           partitions = {
             bios = {
-              size = "2MiB"; unformated
-              type = "EF02"; BIOS Boot partition
+              size = "2M";
+              type = "EF02"; 
             };
             ESP = {
               size = "500M";
